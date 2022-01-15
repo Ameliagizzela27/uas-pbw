@@ -1,0 +1,28 @@
+<div class="row row-cols-4">
+  <% datas.forEach((data,i) => {i++ %>
+    <div class="container">
+      <div class="text-center"> 
+        <div class="col mt-4">
+    <% if (data.nama=="Manx") { %>
+      <img src="./img/Manx.jpg" class="img-fluid img-thumbnail"> 
+    <% } else if (data.nama=="Bali") { %>
+      <img src="./img/Bali.jpg" class="img-fluid img-thumbnail" >
+    <% } else if (data.nama=="American Shorthair") { %>
+      <img src="./img/AmericanShorthair.jpg" class="img-fluid img-thumbnail" alt="Kucing Manx">
+    <% } else if(data.nama=="Bengal") { %>
+      <img src="./img/Bengal.jpg" class="img-fluid img-thumbnail" alt="Kucing Manx">
+    <% } else if(data.nama=="Persia") { %>
+      <img src="./img/Persia.jpg" class="img-fluid img-thumbnail" alt="Kucing Manx">
+    <% } else if(data.nama=="Munchkin") { %>
+      <img src="./img/Munchkin.jpg" class="img-fluid img-thumbnail" alt="Kucing Manx">
+    <% } else if(data.nama=="Siam") { %>
+      <img src="./img/Siam.jpg" class="img-fluid img-thumbnail" alt="Kucing Manx">
+    <% } %>
+    <p><%=data.nama %></p>
+    <p class="text-center"><%=data.harga%></p>
+    <a href="/listProduct/<%=data.nama%>" class="btn btn-primary"><i class="bi bi-info-circle"></i>Selengkapnya </a>
+    </div>
+  </div>
+</div>
+    <% }) %>
+</div>

@@ -1,0 +1,48 @@
+[{
+    "nama": "Manx", 
+    "harga" : "200.000",
+    "ttl" : "27 Nopember 2021",
+    "parent" : "Manx & American Shorthair"
+},
+{
+    "nama" : "American Shorthair", 
+    "harga" : "200.000",
+    "ttl" : "28 Nopember 2021",
+    "parent" : "Manx & American Shorthair"
+},
+{
+    "nama" : "Bengal", 
+    "harga" : "200.000",
+    "ttl" : "27 Nopember 2021",
+    "parent" : "Manx & American Shorthair",
+    "jeniskelamin" : "perempuan"
+},
+{
+    "nama" : "Munchkin", 
+    "harga" : "200.000",
+    "ttl" : "27 Nopember 2021",
+    "parent" : "Persia & American Shorthair",
+    "jeniskelamin" : "perempuan"
+},
+{
+    "nama" : "Siam", 
+    "harga" : "200.000",
+    "ttl" : "27 Nopember 2021",
+    "parent" : "Siam & American Shorthair",
+    "jeniskelamin" : "perempuan"
+},
+{
+    "nama" : "Bali", 
+    "harga" : "200.000",
+    "ttl" : "27 Nopember 2021",
+    "parent" : "Bali & Persia",
+    "jeniskelamin" : "perempuan"
+},
+{
+    "nama" : "Persia", 
+    "harga" : "200.000",
+    "ttl" : "27 Nopember 2021",
+    "parent" : "Persia & Bali",
+    "jeniskelamin" : "perempuan"
+}
+]

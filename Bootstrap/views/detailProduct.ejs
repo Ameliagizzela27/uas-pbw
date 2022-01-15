@@ -1,0 +1,23 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Detail data</h2>
+             <% if (!data) { %>
+                <div class="alert alert-danger" role="alert">
+                    Data data tidak ada <a href="/data" class="alert-link">Kembali ke daftar kontak</a>
+                </div>
+             <% }  else {%> 
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">  <%= data.nama %>  </h5>
+                  <h6 class="card-text"><%= data.ttl %></h6>
+                  <p class="card-text"><%= data.jeniskelamin %></p>
+                  <p class="card-text"><%= data.harga %></p>
+                  <a type="button" href="/detailProduct/<%= data.nama %>" required value="<%= data.nama %>" >>Wishlist</a>
+                  <a href="/listProduct" class="card-link d-block mt-1">&laquo;Back to Contacts</a>
+                  </div>
+              </div>
+              <% } %> 
+        </div>
+    </div>
+</div>
